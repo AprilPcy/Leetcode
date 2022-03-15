@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class _104_MaximumDepthOfBinaryTree_Method2_Iterative {
+    //  Time Complexity: O(n)
+    //  Space Complexity：  O(n)
     public int maxDepth(TreeNode root) {
         if(root==null) return 0;
         Queue<TreeNode> queue=new LinkedList<>();
